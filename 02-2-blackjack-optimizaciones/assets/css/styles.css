@@ -1,0 +1,25 @@
+html, body{
+    margin: 0;
+    background-color: #2f4f30;
+    color: #fff;
+}
+
+.titulo{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta{
+    width: 100px;
+    position: relative;
+    left: 100px;
+    margin-left: -50px;
+}
+
+[id^="cartas-jugador-"]{
+    min-height: 180px;
+}
+
