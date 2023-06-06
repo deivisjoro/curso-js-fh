@@ -1,0 +1,27 @@
+<h1 class="text-center">App Upload files cloudinary</h1>
+<hr>
+<form>
+    <fieldset>
+        <legend>Subida de archivos (imagen)</legend>
+        <div>
+            <label for="archivo">Seleccione una imagen: </label>
+            <input type="file" name="archivo" id="archivo" accept="image/png, image/jpg, image/jpeg">
+        </div>
+        <button type="submit" class="btn btn-primary">Subir</button>
+    </fieldset>
+</form>
+<div class="container-preview">
+    <div class="preview hide" id="preview1">
+        <h2>Imagen seleccionada</h2>
+        <img src="" alt="Foto cargada">
+    </div>
+    <div class="preview hide" id="preview2">
+        <h2>Imagen cargada</h2>
+        <div>
+            <img src="/assets/loading.gif" alt="imagen cargar" id="img-loading" class="hide">
+        </div>
+        <img src="" alt="Foto cargada" class="hide">        
+    </div>
+</div>
+<div class="text-error hide">
+</div>
